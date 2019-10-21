@@ -1,3 +1,4 @@
+
 html,
 body {
   height: 100%;
@@ -6,8 +7,8 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
-
-.rgba {
+.rgba
+{
   background-color: rgba(0, 0, 0, 0.568);
   background-size: 100vh;
   height: 100vh;
@@ -15,12 +16,11 @@ body {
   z-index: -0;
   width: 100%;
 }
-
-.cent-port {
-  position: relative;
-  z-index: 2;
-}
-
+.cent-port
+  {
+    position: relative;
+    z-index: 2;
+  }
 .descripcion {
   color: white;
   text-align: justify;
@@ -33,11 +33,13 @@ body {
   padding: 0;
   margin-bottom: -0.3%;
   width: 100%;
+  background-color: black;
+  height: auto;
 }
 
 .uno {
 
-  background: url("../images/tl.jpg") 50% 50% / cover no-repeat;
+  background: url("../images/1.jpg") 50% 50% / cover no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: auto;
@@ -57,28 +59,28 @@ body {
 }
 
 .dos {
-  background: url("../images/tl2.jpg") 50% 10% / cover no-repeat;
+  background: url("../images/2.jpg") 50% 10% / cover no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 70%;
 }
 
 .tres {
-  background: url("../images/tl3.jpg") 50% 10% / cover no-repeat;
+  background: url("../images/3.jpg") 50% 10% / cover no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 70%;
 }
 
 .cuatro {
-  background: url("../images/tl4.jpg") 50% 10% / cover no-repeat;
+  background: url("../images/4.jpg") 50% 10% / cover no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 70%;
 }
 
 .cinco {
-  background: url("../images/tl5.jpg") 50% 10% / cover no-repeat;
+  background: url("../images/5.jpg") 50% 10% / cover no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 70%;
@@ -245,7 +247,7 @@ body {
   display: block;
   margin: 0;
   text-align: justify;
-  font-size: larger;
+ font-size: larger;
   margin-top: -2vh;
   color: white;
 }
@@ -280,23 +282,23 @@ body {
 #ficha p {
   text-align: justify;
   font-size: large;
-  color: white;
+  color:white;
 }
 
 #ficha img {
   width: 15%;
   float: left;
-
+  
   transition: all .3s ease;
   margin: 0 1vh 0vh 0;
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.589);
 }
-
-#ficha img:hover {
+#ficha img:hover
+{
   width: 18%;
   transition: all .3s ease;
   box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
-
+  
 }
 
 #ficha .imagenes img {
@@ -304,44 +306,39 @@ body {
   float: none;
 
 }
-
-.btn {
+.btn{
   transition: all .3s ease;
   border: solid 3px;
   font-family: 'Arial Black';
   font-size: 20px;
-  padding: 20px 40px;
-  text-decoration: none;
+	padding: 20px 40px;
+	text-decoration: none;
   margin-right: 10px;
-  background-color: white;
+  background-color: white ;
 }
-
-.btn-black {
+.btn-black{
   transition: all .3s ease;
-  border-color: black;
-  color: black;
+	border-color: black;
+	color: black;
 }
-
-.btn-black:hover {
+.btn-black:hover{
   transition: all .3s ease;
-  background-color: black;
-  border-color: white;
-  color: white;
+	background-color: black;
+	border-color: white;
+	color: white;
 }
-
-.btn-white {
+.btn-white{
   transition: all .3s ease;
-  border-color: white;
-  color: white;
+	border-color: white;
+	color: white;
 }
 
-.btn-white:hover {
+.btn-white:hover{
   transition: all .3s ease;
-  background-color: white;
-  border-color: black;
-  color: black;
+	background-color: white;
+	border-color: black;
+	color: black;
 }
-
 /*-------------Ficha-------------------*/
 
 
@@ -375,10 +372,9 @@ body {
   font-size: 1.3vw;
 }
 
-#cambio_climatico p {
+#cambio_climatico p{
   font-size: large;
 }
-
 #cambio_climatico video {
   width: 40%;
 }
@@ -392,12 +388,12 @@ body {
 /*------------------opinion--------------------------------*/
 
 #opi {
-  padding-top: 5vw;
+  padding-top: 5vw ;
   background-color: rgb(0, 0, 0);
   padding-left: 2vh;
   padding-right: 2vh;
   position: relative;
-
+  
 }
 
 #opi h1 {
@@ -421,7 +417,7 @@ body {
 }
 
 #opi p {
-
+  
   text-align: justify;
   font-size: 1.3vw;
   color: white;
@@ -528,96 +524,86 @@ footer {
   position: relative;
   z-index: 1;
 }
-
-footer #redes-sociales a {
-
-  margin: 3%;
+footer #redes-sociales a
+{
+  
+margin: 3%;
 }
-
-footer #redes-sociales a img {
+footer #redes-sociales a img
+{
   margin-top: 7%;
   width: 5%;
   height: auto;
   transition: all .3s ease;
 }
-
-footer #redes-sociales a img:hover {
+footer #redes-sociales a img:hover{
   width: 6%;
   transition: all .3s ease;
 }
-
-footer .derechos {
-
+footer .derechos
+{
+  
   text-align: center;
   padding-top: 5%;
 }
-
-footer .derechos a {
+footer .derechos a{
   text-decoration: none;
   color: rgb(165, 160, 160);
 }
-
 /*-------------footer-----------------------*/
 @media screen and (min-width:1079px) {
-
-  #opi .myimg img {
+ 
+  #opi .myimg img{
     display: inline-block;
     width: 30%;
     height: 30%;
     margin: 2vh;
   }
-
-  #cambio_climatico video {
+  
+  #cambio_climatico  video
+  {
     width: 49%;
     height: 50%;
   }
-
-  #opi h1 {
-    font-size: 10vh;
-  }
-
-  #opi h2 {
-    font-size: 8vh;
-  }
-
-  #opi p {
+#opi h1{
+  font-size: 10vh;
+}
+#opi h2{
+font-size:8vh;
+}
+#opi p
+{
+    font-size: 3vh;
+}
+  #cambio_climatico ul{
     font-size: 3vh;
   }
-
-  #cambio_climatico ul {
-    font-size: 3vh;
-  }
-
   #cambio_climatico {
     margin: 0 auto;
     padding-top: 5vw;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-left: 10vh ;
+    padding-right: 10vh ;
     position: relative;
     z-index: 1;
   }
-
   #cambio_climatico p {
     font-size: 3vh;
   }
-
+  
   #ficha .imagenes img {
     width: 30%;
     margin: 2vh;
   }
-
   #pelicula p {
     font-size: 3vh;
   }
-
-  #ficha p {
+  #ficha p
+  {
     font-size: 3vh;
   }
-
-  #ficha video {
+  #ficha video{
     width: 98%;
   }
-
   .cent-port .portada {
     margin-left: 0vh;
     padding: 0;
@@ -640,7 +626,7 @@ footer .derechos a {
     color: rgb(129, 145, 145);
     font-size: 4vw;
 
-
+    
   }
 
   .descripcion {
@@ -661,97 +647,82 @@ footer .derechos a {
 
 
 @media screen and (max-width: 1078px) and (min-width: 900px) {
-
-  footer #redes-sociales a img {
+  
+  footer #redes-sociales a img{
     width: 10%;
     transition: all .3s ease;
 
   }
-
-  footer #redes-sociales a img:hover {
+  footer #redes-sociales a img:hover{
     width: 12%;
     transition: all .3s ease;
   }
-
-  footer .derechos {
+  footer .derechos{
     font-size: 2vh;
-
-  }
-
-  s #opi .myimg img {
+    
+  }s
+  #opi .myimg img{
     display: inline-block;
     width: 29%;
-
+    
     margin: 2vh;
   }
-
-  #cambio_climatico video {
+  
+  #cambio_climatico  video
+  {
     width: 49%;
   }
-
-  #cambio_climatico video {
+  #cambio_climatico  video
+  {
     width: 49%;
   }
-
-  #opi h1 {
+  #opi h1{
     font-size: 10vh;
   }
-
-  #opi h2 {
-    font-size: 8vh;
+  #opi h2{
+  font-size:8vh;
   }
-
-  #opi p {
+  #opi p
+  {
+      font-size: 3vh;
+  }
+  #cambio_climatico ul{
     font-size: 3vh;
   }
-
-  #cambio_climatico ul {
-    font-size: 3vh;
+  #cambio_climatico h1{
+    font-size:6vh;
   }
 
-  #cambio_climatico h1 {
-    font-size: 6vh;
+  #cambio_climatico h2{
+    font-size:6vh;
   }
-
-  #cambio_climatico h2 {
-    font-size: 6vh;
+  #cambio_climatico h3{
+    font-size:4vh;
   }
-
-  #cambio_climatico h3 {
-    font-size: 4vh;
+  #cambio_climatico p{
+  font-size: 3vh;    
   }
-
-  #cambio_climatico p {
-    font-size: 3vh;
-  }
-
   #ficha h1 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula p {
     font-size: 3vh;
   }
-
   #ficha h2 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula h1 {
     font-size: 8vh;
   }
-
   #ficha h3 {
 
-    font-size: 4vh;
+    font-size:4vh;
   }
-
   #pelicula h2 {
     font-size: 4vh;
   }
-
   #ficha p {
     font-size: 3vh;
   }
@@ -760,27 +731,23 @@ footer .derechos a {
     width: 45%;
     margin: 2vh;
   }
-
   #ficha .imagenes img:hover {
     width: 45%;
     margin: 2vh;
   }
-
-  #ficha video {
+  #ficha video{
     width: 98%;
   }
-
   #ficha img {
     width: 30%;
   }
-
-  #ficha img:hover {
-    width: 30%;
-    transition: all .3s ease;
-    box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
-
-  }
-
+  #ficha img:hover
+{
+  width: 30%;
+  transition: all .3s ease;
+  box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
+  
+}
   .cent-port {
     text-align: center;
 
@@ -840,124 +807,102 @@ footer .derechos a {
 
 
 @media screen and (max-width: 900px) and (min-width: 816px) {
-
-  footer #redes-sociales a img {
+  
+  footer #redes-sociales a img{
     width: 10%;
     transition: all .3s ease;
 
   }
-
-  footer #redes-sociales a img:hover {
+  footer #redes-sociales a img:hover{
     width: 12%;
     transition: all .3s ease;
   }
-
-  footer .derechos {
+  footer .derechos{
     font-size: 2vh;
-
+    
   }
-
   #opi .myimg img {
     width: 95%;
     padding: 2vh;
   }
-
-  #cambio_climatico video {
+  #cambio_climatico  video
+  {
     width: 49%;
   }
-
-  #opi h1 {
+  #opi h1{
     font-size: 10vh;
   }
-
-  #opi h2 {
-    font-size: 8vh;
+  #opi h2{
+  font-size:8vh;
   }
-
-  #opi p {
+  #opi p
+  {
+      font-size: 3vh;
+  }
+  #cambio_climatico ul{
     font-size: 3vh;
   }
-
-  #cambio_climatico ul {
-    font-size: 3vh;
+  #cambio_climatico h1{
+    font-size:6vh;
   }
 
-  #cambio_climatico h1 {
-    font-size: 6vh;
+  #cambio_climatico h2{
+    font-size:6vh;
   }
-
-  #cambio_climatico h2 {
-    font-size: 6vh;
+  #cambio_climatico h3{
+    font-size:4vh;
   }
-
-  #cambio_climatico h3 {
-    font-size: 4vh;
+  #cambio_climatico p{
+  font-size: 3vh;    
   }
-
-  #cambio_climatico p {
-    font-size: 3vh;
-  }
-
   #ficha h1 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula p {
     font-size: 3vh;
   }
-
   #ficha h2 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula h1 {
     font-size: 8vh;
   }
-
   #ficha h3 {
 
-    font-size: 4vh;
+    font-size:4vh;
   }
-
   #pelicula h2 {
     font-size: 4vh;
   }
-
   #ficha p {
     font-size: 3vh;
   }
-
   #ficha .imagenes img {
     width: 45%;
     margin: 2vh;
   }
-
   #ficha .imagenes img:hover {
     width: 45%;
     margin: 2vh;
   }
-
-  #ficha video {
+  #ficha video{
     width: 98%;
   }
-
   #ficha img {
     width: 40%;
   }
-
-  #ficha img:hover {
-    width: 40%;
-    transition: all .3s ease;
-    box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
-
-  }
-
-  #pelicula .gif1 {
+  #ficha img:hover
+{
+  width: 40%;
+  transition: all .3s ease;
+  box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
+  
+}
+  #pelicula .gif1{
     width: 50%;
   }
-
   .cent-port {
     text-align: center;
 
@@ -1016,128 +961,109 @@ footer .derechos a {
 
 @media screen and (max-width: 816px) and (min-width: 601px) {
 
-  footer {
+  footer{
     height: 35%;
   }
-
-  footer #redes-sociales a img {
+  footer #redes-sociales a img{
     width: 10vh;
     transition: all .3s ease;
 
   }
-
-  footer #redes-sociales a img:hover {
+  footer #redes-sociales a img:hover{
     width: 11vh;
     transition: all .3s ease;
   }
-
-  footer .derechos {
+  footer .derechos{
     font-size: 2vh;
-
+    
   }
-
   #opi .myimg img {
     width: 95%;
     padding: 2vh;
   }
-
-  #cambio_climatico video {
+  #cambio_climatico  video
+  {
     width: 49%;
   }
-
-  #opi h1 {
+  #opi h1{
     font-size: 10vh;
   }
-
-  #opi h2 {
-    font-size: 8vh;
+  #opi h2{
+  font-size:8vh;
   }
-
-  #opi p {
+  #opi p
+  {
+      font-size: 3vh;
+  }
+  #cambio_climatico ul{
     font-size: 3vh;
   }
-
-  #cambio_climatico ul {
-    font-size: 3vh;
+  #cambio_climatico h1{
+    font-size:6vh;
   }
 
-  #cambio_climatico h1 {
-    font-size: 6vh;
+  #cambio_climatico h2{
+    font-size:6vh;
   }
-
-  #cambio_climatico h2 {
-    font-size: 6vh;
+  #cambio_climatico h3{
+    font-size:4vh;
   }
-
-  #cambio_climatico h3 {
-    font-size: 4vh;
-  }
-
-  #cambio_climatico p {
-    font-size: 3vh;
+  #cambio_climatico p{
+  font-size: 3vh;    
   }
 
 
   #ficha h1 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula p {
     font-size: 3vh;
   }
-
   #ficha h2 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula h1 {
     font-size: 8vh;
   }
-
   #ficha h3 {
 
-    font-size: 4vh;
+    font-size:4vh;
   }
-
   #pelicula h2 {
     font-size: 4vh;
   }
-
   #ficha p {
     font-size: 3vh;
   }
-
   #ficha .imagenes img {
     width: 40%;
     margin: 2vh;
   }
-
-  #ficha video {
+  #ficha video{
     width: 98%;
   }
-
-  #ficha img:hover {
+  #ficha img:hover
+  {
     width: 40%;
     transition: all .3s ease;
     box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
-
+    
   }
-
+ 
   #ficha img {
     width: 40%;
   }
-
-  #pelicula .gif1 {
+  #pelicula .gif1{
     width: 60%;
   }
-
-
-  .uno {
+  
+  
+  .uno
+  {
     height: max-content;
   }
-
   .cent-port {
     text-align: center;
 
@@ -1185,139 +1111,121 @@ footer .derechos a {
 
 @media (max-width: 600px) {
 
-  .rgba {
-    background-color: rgba(0, 0, 0, 0.568);
-    background-size: 100vh;
-    height: 200vh;
-    position: absolute;
-    z-index: -0;
-    width: 100%;
-  }
-
-  footer {
+  .rgba
+{
+  background-color: rgba(0, 0, 0, 0.568);
+  background-size: 100vh;
+  height: 200vh;
+  position: absolute;
+  z-index: -0;
+  width: 100%;
+}
+  footer{
     background-size: 100vh;
     height: 24%;
   }
-
-  footer #redes-sociales a img {
+  footer #redes-sociales a img{
     width: 15%;
     transition: all .3s ease;
 
   }
-
-  footer #redes-sociales a img:hover {
+  footer #redes-sociales a img:hover{
     width: 15%;
     transition: all .3s ease;
   }
-
-  footer .derechos {
+  footer .derechos{
     font-size: 2vh;
-
+    
   }
 
   #opi .myimg img {
     width: 95%;
     margin: 2vh;
   }
-
-  #opi {
-    padding-left: 3vh;
+#opi{
+  padding-left: 3vh;
     padding-right: 3vh;
+}
+  #opi h1{
+    font-size:10vh;
   }
 
-  #opi h1 {
-    font-size: 10vh;
+  #opi h2{
+    font-size:6vh;
   }
-
-  #opi h2 {
-    font-size: 6vh;
+  #opi h3{
+    font-size:4vh;
   }
-
-  #opi h3 {
-    font-size: 4vh;
+  #opi p{
+  font-size: 3vh;    
   }
-
-  #opi p {
+  #cambio_climatico ul{
     font-size: 3vh;
   }
-
-  #cambio_climatico ul {
-    font-size: 3vh;
+  #cambio_climatico h1{
+    font-size:6vh;
   }
 
-  #cambio_climatico h1 {
-    font-size: 6vh;
+  #cambio_climatico h2{
+    font-size:6vh;
   }
-
-  #cambio_climatico h2 {
-    font-size: 6vh;
+  #cambio_climatico h3{
+    font-size:4vh;
   }
-
-  #cambio_climatico h3 {
-    font-size: 4vh;
+  #cambio_climatico p{
+  font-size: 3vh;    
   }
-
-  #cambio_climatico p {
-    font-size: 3vh;
-  }
-
   #ficha h1 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula p {
     font-size: 3vh;
   }
-
   #ficha h2 {
 
-    font-size: 6vh;
+    font-size:6vh;
   }
-
   #pelicula h1 {
     font-size: 8vh;
   }
-
   #ficha h3 {
 
-    font-size: 4vh;
+    font-size:4vh;
   }
-
   #pelicula h2 {
     font-size: 4vh;
   }
-
   #ficha p {
     font-size: 3vh;
   }
-
-  #cambio_climatico video {
+  
+  #cambio_climatico video
+  {
     width: 100%;
   }
-
-  #cambio_climatico {
+  #cambio_climatico
+  {
     padding-left: 3vh;
     padding-right: 3vh;
   }
-
-
-  #cambio_climatico h3 {
-    color: rgb(23, 104, 16);
-
+  
+  
+  #cambio_climatico h3
+  {
+    color:rgb(23, 104, 16);
+    
   }
-
+ 
   #ficha .imagenes img {
     width: 95%;
     margin: 2vh;
   }
-
   #ficha .imagenes img:hover {
     width: 95%;
     margin: 2vh;
   }
-
-  .btn {
+  .btn{
     transition: all .3s ease;
     border: solid 3px;
     font-family: 'Arial Black';
@@ -1325,33 +1233,31 @@ footer .derechos a {
     padding: 20px 40px;
     text-decoration: none;
     margin-right: 10px;
-    background-color: white;
+    background-color: white ;
   }
-
-  #ficha {
+  #ficha
+  {
     padding: 3vh;
     font-size: large;
   }
-
-  #ficha video {
+  #ficha video{
     width: 98%;
   }
-
-  #ficha img:hover {
+  #ficha img:hover
+{
+  width: 50%;
+  transition: all .3s ease;
+  box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
+  
+}
+  
+  #ficha img{
     width: 50%;
-    transition: all .3s ease;
-    box-shadow: 0 0 20px 0 rgba(65, 221, 241, 0.589);
-
   }
-
-  #ficha img {
-    width: 50%;
-  }
-
-  #pelicula .gif1 {
+  #pelicula .gif1{
     width: 100%;
   }
-
+  
   .cent-port {
     text-align: center;
 
@@ -1418,7 +1324,7 @@ footer .derechos a {
   }
 
   .uno {
-    background-image: url("../images/tl.jpg");
+    background-image: url("../images/1.jpg");
 
     background-attachment: fixed;
     height: 100%;
@@ -1427,7 +1333,7 @@ footer .derechos a {
   }
 
   .dos {
-    background-image: url("../images/tl2.jpg");
+    background-image: url("../images/2.jpg");
 
     background-attachment: fixed;
     height: 50%;
@@ -1438,21 +1344,21 @@ footer .derechos a {
 
 
   .tres {
-    background: url("../images/tl3.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/3.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
   }
 
   .cuatro {
-    background: url("../images/tl4.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/4.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
   }
 
   .cinco {
-    background: url("../images/tl5.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/5.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
@@ -1639,7 +1545,7 @@ footer .derechos a {
 }
 
 @media (max-width: 374px) {
-    .rgba {
+  .rgba{
     background-color: rgba(0, 0, 0, 0.568);
     background-size: 100vh;
     height: 200vh;
@@ -1647,43 +1553,37 @@ footer .derechos a {
     z-index: -0;
     width: 100%;
   }
-
   footer {
-    background-size: 175%;
+    background-size:175%;
   }
-
-  footer {
+  footer{
     height: auto;
   }
-
-  footer #redes-sociales a img {
+  footer #redes-sociales a img{
     width: 15%;
 
   }
-
-  footer #redes-sociales a img:hover {
+  footer #redes-sociales a img:hover{
     width: 15%;
 
   }
-
-  footer .derechos {
+  footer .derechos{
     font-size: 2vh;
-
+    
   }
-
-  #pelicula h1 {
+  #pelicula h1
+  {
     font-size: 6vh;
   }
-
-  #opi h1 {
+  
+  #opi h1
+  {
     font-size: 8vh;
   }
-
   #ficha img {
     width: 95%;
   }
-
-  .btn {
+  .btn{
     transition: all .3s ease;
     border: solid 3px;
     font-family: 'Arial Black';
@@ -1691,9 +1591,8 @@ footer .derechos a {
     padding: 10px 20px;
     text-decoration: none;
     margin-right: 10px;
-    background-color: white;
+    background-color: white ;
   }
-
   .cent-port {
     text-align: center;
 
@@ -1724,7 +1623,7 @@ footer .derechos a {
     color: white;
 
   }
-
+  
   .video1 {
     margin-bottom: -0.6%;
   }
@@ -1760,7 +1659,7 @@ footer .derechos a {
   }
 
   .uno {
-    background-image: url("../images/tl.jpg");
+    background-image: url("../images/1.jpg");
 
     background-attachment: fixed;
     height: 100%;
@@ -1769,7 +1668,7 @@ footer .derechos a {
   }
 
   .dos {
-    background-image: url("../images/tl2.jpg");
+    background-image: url("../images/2.jpg");
 
     background-attachment: fixed;
     height: 50%;
@@ -1780,21 +1679,21 @@ footer .derechos a {
 
 
   .tres {
-    background: url("../images/tl3.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/3.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
   }
 
   .cuatro {
-    background: url("../images/tl4.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/4.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
   }
 
   .cinco {
-    background: url("../images/tl5.jpg") 50% 10% / cover no-repeat;
+    background: url("../images/5.jpg") 50% 10% / cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 50%;
