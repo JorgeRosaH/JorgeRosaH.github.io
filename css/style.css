@@ -552,7 +552,10 @@ footer .derechos a{
 }
 /*-------------footer-----------------------*/
 @media screen and (min-width:1079px) {
- 
+  .rgba
+  {
+    height: 400vh;
+  }
   #opi .myimg img{
     display: inline-block;
     width: 30%;
@@ -648,6 +651,10 @@ font-size:8vh;
 
 @media screen and (max-width: 1078px) and (min-width: 900px) {
   
+  .rgba
+  {
+    height: 400vh;
+  }
   footer #redes-sociales a img{
     width: 10%;
     transition: all .3s ease;
@@ -808,6 +815,10 @@ font-size:8vh;
 
 @media screen and (max-width: 900px) and (min-width: 816px) {
   
+  .rgba
+  {
+    height: 400vh;
+  }
   footer #redes-sociales a img{
     width: 10%;
     transition: all .3s ease;
@@ -960,7 +971,10 @@ font-size:8vh;
 }
 
 @media screen and (max-width: 816px) and (min-width: 601px) {
-
+  .rgba
+  {
+    height: 400vh;
+  }
   footer{
     height: 35%;
   }
@@ -1115,7 +1129,7 @@ font-size:8vh;
 {
   background-color: rgba(0, 0, 0, 0.568);
   background-size: 100vh;
-  height: 200vh;
+  height: 400vh;
   position: absolute;
   z-index: -0;
   width: 100%;
@@ -1561,7 +1575,7 @@ font-size:8vh;
   .rgba{
     background-color: rgba(0, 0, 0, 0.568);
     background-size: 100vh;
-    height: 200vh;
+    height: 400vh;
     position: absolute;
     z-index: -0;
     width: 100%;
