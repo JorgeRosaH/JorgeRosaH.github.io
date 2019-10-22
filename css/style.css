@@ -1542,9 +1542,22 @@ font-size:8vh;
   #nav .open.sticky {
     height: auto;
   }
+  #nav.open
+  {
+    background-color: black;
+  }
+  .cent-port .portada
+  {
+    padding-top: 18vw;
+  }
+  .contact-form form p
+  {
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 374px) {
+  
   .rgba{
     background-color: rgba(0, 0, 0, 0.568);
     background-size: 100vh;
@@ -1581,7 +1594,10 @@ font-size:8vh;
     font-size: 8vh;
   }
   #ficha img {
-    width: 95%;
+    width: 100%;
+  }
+  #ficha img:hover{
+    width: 100%;
   }
   .btn{
     transition: all .3s ease;
@@ -1595,8 +1611,9 @@ font-size:8vh;
   }
   .cent-port {
     text-align: center;
-
+    align-content: center;
   }
+ 
 
   .descripcion {
     display: none;
@@ -1876,5 +1893,25 @@ font-size:8vh;
 
   #nav .open.sticky {
     height: auto;
+  }
+  .uno 
+  {
+    
+    height: max-content;
+  }
+  .cent-port .portada
+  {
+    padding-top: 29vw;
+  }
+  #nav.open
+  {
+    background-color: black;
+  }
+  .contact-form form {
+    display: block;
+  }
+  .contact-form form p
+  {
+    font-size: 3vh;
   }
 }
