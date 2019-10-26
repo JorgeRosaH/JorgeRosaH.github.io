@@ -495,12 +495,17 @@ body {
   color: #fff;
   border-bottom: 1px solid #d63031;
 }
-
+.contact-form form .block input  
+{
+  border-bottom: 0px solid #d63031;
+  
+}
 .contact-form form button {
   background: #B70E21;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
+  
 }
 
 .contact-form form button:hover,
