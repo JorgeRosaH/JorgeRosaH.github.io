@@ -346,6 +346,8 @@ body {
 #cambio_climatico {
   background-color: #989da8;
   padding: 6vh;
+  position: relative;
+  z-index: 2;
 }
 
 #cambio_climatico h1 {
