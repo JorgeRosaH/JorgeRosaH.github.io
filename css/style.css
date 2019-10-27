@@ -1575,6 +1575,37 @@ font-size:8vh;
   {
     font-size: 3vw;
   }
+  #ficha p {
+    font-size: 2.5vh;
+  }
+  #pelicula p
+  {
+    font-size: 2.5vh;
+  }
+  #cambio_climatico p {
+    font-size:2.5vh;
+  }
+  #cambio_climatico h1 {
+    font-size: 4vh;
+  }
+  #cambio_climatico h2 {
+    font-size: 4vh;
+  }
+  #cambio_climatico h3 {
+    font-size: 3vh;
+  }
+  #cambio_climatico ul li {
+    font-size:2.5vh;
+  }
+  #opi p {
+    font-size: 2.5vh;
+  }
+  #opi h2 {
+    font-size: 4vh;
+  }
+  .contact-form form p {
+    font-size: 2vh;
+}
 }
 
 @media (max-width: 374px) {
@@ -1607,12 +1638,12 @@ font-size:8vh;
   }
   #pelicula h1
   {
-    font-size: 6vh;
+    font-size: 5vh;
   }
   
   #opi h1
   {
-    font-size: 8vh;
+    font-size: 6vh;
   }
   #ficha img {
     width: 100%;
@@ -1931,8 +1962,36 @@ font-size:8vh;
   .contact-form form {
     display: block;
   }
-  .contact-form form p
+  
+  #ficha p {
+    font-size: 2.5vh;
+  }
+  #pelicula p
   {
+    font-size: 2.5vh;
+  }
+  #cambio_climatico p {
+    font-size:2.5vh;
+  }
+  #cambio_climatico h1 {
+    font-size: 4vh;
+  }
+  #cambio_climatico h2 {
+    font-size: 4vh;
+  }
+  #cambio_climatico h3 {
     font-size: 3vh;
   }
+  #cambio_climatico ul li {
+    font-size:2.5vh;
+  }
+  #opi p {
+    font-size: 2.5vh;
+  }
+  #opi h2 {
+    font-size: 4vh;
+  }
+  .contact-form form p {
+    font-size: 2vh;
+}
 }
