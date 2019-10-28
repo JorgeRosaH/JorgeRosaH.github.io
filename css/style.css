@@ -593,7 +593,20 @@ footer .derechos a{
   text-decoration: none;
   color: rgb(165, 160, 160);
 }
+
 /*-------------footer-----------------------*/
+.sf-download-bar
+{
+  display: none;
+}
+.sf-download-bar_hide_yes
+
+{
+  display: none;
+}
+.sf-download-bar_hide_yes {
+  display: nonce;
+}
 @media screen and (min-width:1079px) {
   .rgba
   {
